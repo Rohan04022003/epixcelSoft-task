@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A form page with validation" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Form, Validation" />
+    <meta name="author" content="Rohan Kumar Mahto" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Form Validation Task</title>
+
+    <!-- Link of external CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts (Replace 'Roboto' with any font mentioned in the design) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon (Optional, if you have any) -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Your form structure -->
+    <navbar id="navbar" class="flex-box">
+      <div class="header-left">
+        <img src="./assets/icons/dark-logo.svg" alt="" class="cursor" />
+      </div>
+      <div class="header-middle">
+        <ul class="flex-box">
+          <li class="cursor font-500">Features</li>
+          <li class="cursor font-500">Pricing</li>
+          <li class="cursor font-500">Community</li>
+          <li class="cursor font-500">Support</li>
+        </ul>
+      </div>
+      <div class="header-right flex-box">
+        <button class="login-btn btn font-500 btn-outline cursor">Login</button>
+        <button class="register-btn btn font-500 btn-fill cursor">
+          Register
+        </button>
+      </div>
+      <div class="hamburger">
+        <img src="./assets/icons/hamburger.png" alt="" />
+      </div>
+    </navbar>
+
+    <main style="background-color: black">
+      <section class="hero">
+        <img
+          src="./assets/images/hero.jpg"
+          alt="hero-image"
+          class="background-image"
+        />
+        <div class="overlay"></div>
+        <div class="hero-contents">
+          <h1 class="font-400">The largest community of photo enthusiasts</h1>
+          <button class="hero-btn btn-fill font-500 cursor">Join Today</button>
+        </div>
+      </section>
+
+      <section class="page-2">
+        <div class="page-2-heading">
+          <h2 class="font-600">Snap photos and share like<br />never before</h2>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <h4 class="font-600">Sed ut perspiciatis</h4>
+            <p>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est.
+            </p>
+            <button class="box-btn btn font-500 btn-fill cursor">
+              Learn more
+            </button>
+          </div>
+          <div class="box">
+            <h4 class="font-600">Lorem ipsum dolor</h4>
+            <p>
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi.
+            </p>
+            <button class="box-btn btn font-500 btn-fill cursor">
+              Learn more
+            </button>
+          </div>
+          <div class="box">
+            <h4 class="font-600">Nemo enim ipsam</h4>
+            <p>
+              Consequuntur magni dolores eos qui ratione voluptatem sequi
+              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+              sit amet, consectetur, adipisci velit, sed quia non numquam.
+            </p>
+            <button class="box-btn btn font-500 btn-fill cursor">
+              Learn more
+            </button>
+          </div>
+          <div class="box">
+            <h4 class="font-600">Tempor incididunt</h4>
+            <p>
+              Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora.
+            </p>
+            <button class="box-btn btn font-500 btn-fill cursor">
+              Learn more
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="page-3">
+        <div class="page-3-heading">
+          <h2>Have you ever posted any photo on social media?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore
+          </p>
+        </div>
+        <div class="page-3-container">
+          <div class="left">
+            <div>
+              <h4 class="font-700">Sed ut perspiciatis</h4>
+              <p class="font-400">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut fugit, sed quia consequuntur.
+              </p>
+            </div>
+            <div>
+              <h4 class="font-700">Lorem ipsum dolor</h4>
+              <p class="font-400">
+                Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div>
+              <h4 class="font-700">Nemo enim ipsam</h4>
+              <p class="font-400">
+                Consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt. Neque porro quisquam est, qui dolorem.
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <img src="./assets/images/img1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="page-4">
+        <div class="page-4-heading">
+          <h2>Make your photos more stylish</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore
+          </p>
+        </div>
+        <div class="page-4-container">
+          <div>
+            <img src="./assets/images/img2.jpg" alt="" />
+            <div>
+              <h4 class="font-600">Sed ut perspiciatis</h4>
+              <p class="font-400">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut fugit, sed quia.
+              </p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/img3.jpg" alt="" />
+            <div>
+              <h4 class="font-600">Lorem ipsum dolor</h4>
+              <p class="font-400">
+                Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore.
+              </p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/img4.jpg" alt="" />
+            <div>
+              <h4 class="font-600">Nemo enim ipsam</h4>
+              <p class="font-400">
+                Consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="page-5">
+        <div class="page-5-heading">
+          <h2>Ready to take a free trial?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore
+          </p>
+        </div>
+
+        <div class="form-container">
+          <div>
+            <h4>Sign up for a free account</h4>
+
+            <form id="form">
+              <input
+                type="text"
+                id="first-name"
+                class="font-600"
+                name="first-name"
+                placeholder="First Name"
+                required
+              />
+
+              <input
+                type="text"
+                id="last-name"
+                class="font-600"
+                name="last-name"
+                placeholder="Last Name"
+                required
+              />
+
+              <input
+                type="email"
+                id="email"
+                class="font-600"
+                name="email"
+                placeholder="Email Address"
+                required
+              />
+
+              <input
+                type="tel"
+                id="phone"
+                class="font-600"
+                name="phone"
+                placeholder="Phone Number"
+                oninput="preventNonDigits(this)"
+                required
+              />
+
+              <input
+                type="password"
+                class="font-600"
+                id="password"
+                name="password"
+                placeholder="Create Password"
+                required
+                minlength="8"
+              />
+
+              <button type="submit" class="btn-fill btn cursor font-600">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <div class="footer-left">
+          <img src="./assets/icons/light-logo.svg" alt="" />
+        </div>
+        <div class="footer-right">
+          <div>
+            <h4 class="font-700">Mobile app</h4>
+            <ul>
+              <li class="font-400 cursor">Features</li>
+              <li class="font-400 cursor">Live share</li>
+              <li class="font-400 cursor">Video record</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-700">Community</h4>
+            <ul>
+              <li class="font-400 cursor">Features artists</li>
+              <li class="font-400 cursor">The protal</li>
+              <li class="font-400 cursor">Live event</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-700">Company</h4>
+            <ul>
+              <li class="font-400 cursor">About us</li>
+              <li class="font-400 cursor">Contact us</li>
+              <li class="font-400 cursor">History</li>
+            </ul>
+          </div>
+          <div class="footer-btn">
+            <button class="login-btn btn font-500 btn-outline cursor">
+              Login
+            </button>
+            <button class="register-btn btn font-500 btn-fill cursor">
+              Register
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright-section">
+        <div class="left">
+          <p>© Photo, Inc. 2019. We love our users!</p>
+        </div>
+        <div class="right">
+          <p class="followUs">Follow us:</p>
+          <div class="social-icons cursor">
+            <img src="./assets/icons/facebook.svg" alt="" />
+          </div>
+          <div class="social-icons cursor">
+            <img src="./assets/icons/twitter.svg" alt="" />
+          </div>
+          <div class="social-icons cursor">
+            <img src="./assets/icons/linkedin.svg" alt="" />
+          </div>
+          <div class="social-icons cursor">
+            <img src="./assets/icons/instagram.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Link of external JS file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
